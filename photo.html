@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style4.css" />
+    <title>Puuaa</title>
+    <style>
+        #popup {
+            display: none;
+            position: fixed;
+            top: 8.5%;
+            left: 11.5%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(to right, #cccccc, #c5c4c4);
+            padding: 16px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+        #popup button {
+            margin-top: 10px;
+            padding: 10px;
+            background: linear-gradient(to right, #cccccc, #c5c4c4);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        #popup button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+        .btn-hover {
+    background: linear-gradient(to right, #cccccc, #a1a1a1);
+    color: white;
+    padding: 10px 12px;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: fixed;
+    top: 93%;
+    left: 95%;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .btn-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+    </style>
+</head>
+<body>
+  
+    <div id="popup">
+        <p>Biar lagunya membekas buat pua wkwk.</p>
+        <button onclick="playAudio()">Click me!</button>
+    </div>
+    <audio id="audio" src="gobaek.mp3"></audio>
+    <div class="container">
+      <button class="btn-hover"><a href="home.html"> Home </a></button>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="o.jpg" alt="">
+                <div class="caption">
+                    <h1>Poto berdua? special my birthday?</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="a.jpg" alt="">
+                <div class="caption">
+                    <h1>Emng boleh bgini?</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="m.jpg" alt="">
+                <div class="caption">
+                    <h1>Oh gtu ngeliatinnya?</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="p.jpg" alt="">
+                <div class="caption">
+                    <h1>Ciie effort nih?</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="q.jpg" alt="">
+                <div class="caption">
+                    <h1>ga jd effort ah, lammmaa -.-</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="c.jpg" alt="">
+                <div class="caption">
+                    <h1>Cinlok Bogor?</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="k.jpg" alt="">
+                <div class="caption">
+                    <h1>Poto pertama bgt loh ini 11/06</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="b.jpg" alt="">
+                <div class="caption">
+                    <h1>Dateng pas ada butuhnya aja</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="l.jpg" alt="">
+                <div class="caption">
+                    <h1>Tuh pas ada butuhnya doang</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="g.jpg" alt="">
+                <div class="caption">
+                    <h1>Gamenya 0/10</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="i.jpg" alt="">
+                <div class="caption">
+                    <h1>Saling support terus yaa</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="h.jpg" alt="">
+                <div class="caption">
+                    <h1>Dikasih tau malah maen ml</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="d.jpg" alt="">
+                <div class="caption">
+                    <h1>Mikirin nuna ya??</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="e.jpg" alt="">
+                <div class="caption">
+                    <h1>Freestyle duluu</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="f.jpg" alt="">
+                <div class="caption">
+                    <h1>Utututuu lucunaa</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="j.jpg" alt="">
+                <div class="caption">
+                    <h1>Model Glopis ya tong?</h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="n.jpg" alt="">
+                <div class="caption">
+                    <h1>HBD uri 1004! ^^ </h1>
+                    <ion-icon name="heart-outline" class="like-btn"></ion-icon>
+                </div>
+              </div>
+
+            </div>
+          </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app1.js"></script>
+    <script>
+        window.onload = function() {
+            document.getElementById("popup").style.display = "block";
+        };
+
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play();
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</body>
+</html>
